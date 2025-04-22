@@ -1,5 +1,5 @@
 {
-  "name": "unix-like-api",
+  "name": "unik-api",
   "version": "0.0.0",
   "description": "Unix Like Api task.",
   "main": "src/main.ts",
