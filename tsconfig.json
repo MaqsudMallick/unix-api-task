@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "nodenext",
+    "typeRoots": ["./node_modules/@types", "types"]
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
