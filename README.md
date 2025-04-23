@@ -1,3 +1,44 @@
+# Dev Setup
+
+## 1. Postgres Database
+
+- Install Postgres
+- Add your database url to .env
+
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/unix
+```
+
+## 2. Dependencies
+
+- Install dependencies
+
+```bash
+npm install
+```
+
+## 3. Create tables
+
+- Create tables
+
+```bash
+npm run db:push
+```
+
+## 4. Generate Prisma Types
+
+- Generate Prisma Types
+
+```bash
+npm run db:generate
+```
+
+## 5. Run the server
+
+```bash
+npm run dev
+```
+
 # User Endpoints Documentation
 
 ## 1. Get User by ID
